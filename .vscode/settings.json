@@ -1,0 +1,8 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "off",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultColorDecorators": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderLineHighlightOnlyWhenFocus": true
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+    <title>Everything for a Porpoise</title>
+
+    <!--Hamburger menu icon CSS File-->
+    <link rel="stylesheet" href="src/components/css/navbar.css" />
+    <link rel="stylesheet" href="src/components/css/welcome.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Slick carousel CSS Files-->
+    <link rel="stylesheet" href="src/components/css/carousel.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@splidejs/splide/dist/css/themes/splide-sea-green.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!--Form CSS File-->
+    <link rel="stylesheet" href="src/components/css/form.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!--Footer CSS File-->
+    <link rel="stylesheet" href="src/components/css/footer.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="topNav" id="myTopNav" aria-label="Main">
+        <button class="hamburger"
+                id="hamburger" 
+                aria-expanded="false">
+                Menu
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="navBar">
+          <li class="nav-list logo">
+            <a class="nav-link logo-img" href="">
+              <img
+                class="nav-logo"
+                src="src/components/css/img/navBar/logo.png"
+                alt="Everything for a Porpoise Logo"
+              />
+            </a>
+          </li>
+          <div class="navBar-style">
+            <div class="media-container">
+              <li class="nav-list media">
+                <a class="nav-link media-icon" href="" aria-label="twitter">
+                  <i class="fa-brands fa-square-twitter tw"></i>
+                </a>
+              </li>
+              <li class="nav-list media">
+                <a class="nav-link media-icon" href="" aria-label="instagram">
+                  <i class="fa-brands fa-square-instagram in"></i>
+                </a>
+              </li>
+              <li class="nav-list media">
+                <a class="nav-link media-icon" href="" aria-label="blog">
+                  <i class="fa-solid fa-square-rss bl"></i>
+                </a>
+              </li>
+              <li class="nav-list media">
+                <a class="nav-link media-icon" href="" aria-label="facebook">
+                  <i class="fa-brands fa-square-facebook fb"></i>
+                </a>
+              </li>
+              <li class="nav-list link">
+                <a class="nav-link focus" href="">Careers</a>
+              </li>
+              <li class="nav-list link">
+                <a class="nav-link focus" href="">Resources</a>
+              </li>
+              <li class="nav-list link">
+                <a class="nav-link focus" href="">Contact us</a>
+              </li>
+              <li class="nav-list login" tabindex="-1">
+                <a class="nav-link login-text" href="">Login</a>
+              </li>
+            </div>
+          </div>
+          <div class="login-bg"></div>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="welcome-header">
+      <div class="porpoise-header row">
+        <div class="center">
+          <div class="col" tabindex="0">
+            <h1 class="welcome-h1">Everything for a Porpoise</h1>
+            <p class="welcome-p">
+              In todays world, many animal species are at <br />risk and
+              porpoises are no execption. With over-fishing, <br />pollution,
+              habitat loss and lack of education, these special <br />creatures
+              are quickly going extinct.
+            </p>
+          </div>
+        </div>
+        <div class="col welcome-right">
+          <img
+            class="welcome-img"
+            src="src/components/css/img/welcome/welcome-forward.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="carousel">    
+      <div id="image-slider" class="splide">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/burmeister's.png"
+                      alt= 
+                        "The Black Burmeister's Porpoise. 
+                        1. Lifespan: 15-20 yrs.
+                        2. Weight: 231lbs.
+                        3. Length: 6ft.
+                        Conservation Status: Near Threatened.
+                        Population: 500.
+                        Biggest threat: Hunting."
+                      >
+                      <a href="" aria-label="Learn more about the Burmeister's Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>         
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/indo.png"
+                      alt= 
+                        "The Sea Pig Indo-Pacific Finless Porpoise. 
+                        1. Lifespan: 33 yrs.
+                        2. Weight: 150lbs.
+                        3. Length: 7ft.
+                        Conservation Status: Vulnerable.
+                        Population: 1,300.
+                        Biggest threat: Habitat Loss."
+                      >
+                      <a href="" aria-label="Learn more about the Indo-Pacific Finless Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>   
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/narrow.png"
+                      alt= 
+                        "The Yangtze Narrow-Ridged Finless Porpoise. 
+                        1. Lifespan: 20 yrs.
+                        2. Weight: 158lbs.
+                        3. Length: 7ft.
+                        Conservation Status: Critically Endangered.
+                        Population: 1,000.
+                        Biggest threat: Lack of Food Supply."
+                      >
+                      <a href="" aria-label="Learn more about the Narrow-Ridged Finless Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>         
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/vaquita.png"
+                      alt= 
+                        "The panda of the Sea Vaquita. 
+                        1. Lifespan: 21+ yrs.
+                        2. Weight: 120lbs.
+                        3. Length: 5ft.
+                        Conservation Status: Critically Endangered.
+                        Population: Less then 30.
+                        Biggest threat: Fishing Nets."
+                      >
+                      <a href="" aria-label="Learn more about the Vaquita Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>         
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/spectacled.png"
+                      alt= 
+                        "The 'Marsopa De Anteojos' Spectacled Porpoise. 
+                        1. Lifespan: 24 yrs.
+                        2. Weight: 180-240lbs.
+                        3. Length: 4-7ft.
+                        Conservation Status: Insufficient Data.
+                        Population: Unknown.
+                        Biggest threat: Hunting and Incidental Bycatch."
+                      >
+                      <a href="" aria-label="Learn more about the Spectacled Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>         
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/dall's.png"
+                      alt= 
+                        "The Mini Killer Whale Dall's Porpoise. 
+                        1. Lifespan: 15-22 yrs.
+                        2. Weight: 440+lbs.
+                        3. Length: 7-8ft.
+                        Conservation Status: Least Concern.
+                        Population: +1,000,000.
+                        Biggest threat: Fishing Nets."
+                      >
+                      <a href="" aria-label="Learn more about the Dall's Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>         
+            <div class="splide__slide" role="group" aria-label="slide 1 of 5">
+              <div class="splide__slide__container">
+                <main class="content-grid">
+                  <div class="card-previews">
+                    <div class="card-front">
+                      <img class= "bg-img" src="src/components/css/img/carousel/harbor.png"
+                      alt= 
+                        "The Puffing Pig Harbor Porpoise. 
+                        1. Lifespan: 24 yrs.
+                        2. Weight: 130-170lbs.
+                        3. Length: 5.5ft.
+                        Conservation Status: Least Concern.
+                        Population: 700,000.
+                        Biggest threat: Pollution and Human Disturbance."
+                      >
+                      <a href="" aria-label="Learn more about the Harbor Porpoise">Learn More</a>
+                    </div>
+                  </div>
+                </main>
+              </div>  
+            </div>                         
+          </div>
+        </div>
+      </div>
+      <button class="rotation-button is-control">
+        <span class="pause-container is-visible">
+          <span class="icon fas fa-pause" aria-hidden="true"></span>
+          <span class="sr-only">Pause slide rotation</span>
+        </span>
+
+        <span class="resume-container">
+          <span class="icon fas fa-play" aria-hidden="true"></span>
+          <span class="sr-only">Resume slide rotation</span>
+        </span>
+      </button>
+
+      <button class="previous-button is-control">
+        <span class="fas fa-angle-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous slide</span>
+      </button>
+
+      <button class="next-button is-control">
+        <span class="fas fa-angle-right" aria-hidden="true"></span>
+        <span class="sr-only">Next slide</span>
+      </button>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div class="center">
+        <div class="embeded">
+          <div class="defaults">
+            <form class="newsletter-form" id="newsletter-form" name="form1">
+              <h2 class="newsletter-header" id="hide" tabindex="0">
+                SIGN UP FOR LATEST NEWS FROM EVERYTHING FOR A PORPOISE
+              </h2>
+              <br />
+              <div id="fields">
+                <input
+                  id="firstName"
+                  type="text"
+                  name="firstName"
+                  placeholder="First Name*"
+                  onkeyup="validateFirstName()"
+                />
+                <span class="fn-text" id="error-text" tabindex="0"></span>
+                <br /><br />
+                <input
+                  id="lastName"
+                  type="text"
+                  name="lastName"
+                  placeholder="Last Name*"
+                  onkeyup="validateLastName()"
+                />
+                <span class="ln-text" id="error-text" tabindex="0"></span>
+                <br /><br />
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="Email*"
+                  onkeyup="validateEmail()"
+                />
+                <span class="email-text" id="error-text" tabindex="0"></span>
+                <br /><br /><br />
+              </div>
+              <button class="sub-button" id="sub-button">Subscribe</button>
+              <div class="copyright-wrapper">
+                <p class="copyright" tabindex="0">
+                  By submitting this form, you are consenting to receive
+                  marketing emails from: Everything for a Porpoise,
+                  http://www.everythingforaporpoise.ca. You can revoke your
+                  consent to receive emails at any time by using the Unsubscribe
+                  link, found at the bottom of every email.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bottomNav">
+      <ul class="bottomNavBar">
+        <li class="bottomNav-list logo">
+          <a class="bottomNav-logo logo-img" href="">
+            <img
+              class="bottomNav-logo"
+              src="src/components/css/img/navBar/logo.png"
+              alt="Everything for a Porpoise Logo"
+            />
+          </a>
+        </li>
+        <div class="bottomNavBar-style media-style">
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Privacy Policy</a>
+          </li>
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Terms of use</a>
+          </li>
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Accessibility</a>
+          </li>
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Site Maps</a>
+          </li>
+        </div>
+      </ul>
+      <ul class="bottomNavBar">
+        <div class="bottomNavBar-style2 media-style">
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Careers</a>
+          </li>
+          <li class="bottomNav-list link">
+            <a class="bottomNav-link focus" href="">Contact</a>
+          </li>
+        </div>
+      </ul>
+      <ul class="bottomNavBar">
+        <div class="bottomNavBar-style3 media-style">
+          <li class="bottomNav-list link">
+            <a class="bottomNav-copyright2" tabindex="0">
+              Copyright © 2023 Everything for a Porpoise. All rights reserved |
+              Website Design by Emily Lederer. By submitting this form, you are
+              consenting to receive marketing emails from: Everything for a
+              Porpoise, http://www.everythingforaporpoise.ca. You can revoke
+              your consent to receive emails at any time by using the
+              Unsubscribe link, found at the bottom \of every email.
+            </a>
+          </li>
+        </div>
+      </ul>
+    </footer>
+
+    <!--JS Files-->
+    <!--<script>
+        window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
+        }
+    </script>-->
+    <!--NavBar JS File-->
+    <script src="src/components/js/navbar.js"></script>
+    <!--Slick carousel JS Files-->
+    <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="src/components/js/carousel.js"></script>
+    <!--Form JS File-->
+    <script src="src/components/js/form.js"></script>
+  </body>
+</html>

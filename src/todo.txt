@@ -1,0 +1,90 @@
+color palette:
+yellow      #F1F5BC  rgb(241, 245, 188)  hsl(64, 74%, 85%)
+dark orange #ffb663
+orange      #FECB92  rgb(254, 203, 146)  hsl(32, 98%, 78%)
+red         #F99A9A  rgb(249, 154, 154)  hsl(0, 89%, 79%)
+green       #A8E5D0  rgb(168, 229, 208)
+
+move groups of line with ctrl [ for left or ctrl ] for right.
+edit multiple lines with ctrl alt up arrow and down arrow.
+center a container by doing width/height with px || % then margin = 0 which splits the margin equally 
+on either side.
+ctrl f for find and ctrl h for replace. in replace leave a space to delete
+type ! for html code
+
+topic:
+Porpoise conservation website
+
+elements:
+1. navBar - DONE
+2. navBar responsive - DONE
+3. welcome - site objective -DONE
+4. welcome responsive  - DONE
+5. Meet the porpoises carousel - DONE
+6. carousel responsive - DONE
+7. newsletter - DONE
+8. newsletter responsive - DONE
+9. footer - DONE
+10. footer responsive - DONE
+
+steps:
+
+NAVBAR     .logo
+           .careers
+           .resources
+           .contact us
+           .media icons:fb, tw, in, blog
+           .login
+WELCOME    .Porpoise swimming animation -overly complicated, just do a static image.
+           .site objective
+CAROUSEL   .autoplay
+           .with buttons
+           .1 slide/width
+           .porpoise pictures
+           .text overlay
+           .links to donate/ how you can help
+NEWSLETTER .title
+           .form
+           .warning
+           .subscribe
+FOOTER     .logo
+           .privacy policy
+           .terms of use
+           .accessibility
+           .site map
+           .careers
+           .careers
+           .contact
+           .copyright
+           
+issues:
+    -slide is tabbing within twice - DONE
+    -hamburger menu is not accessible: - DONE
+        .button has stopped working
+        .button doesn't have label when on x
+        .button progression for tabbing and sreen reader is out of order
+    -make text tabable - DONE
+    -label links and img with alt text - DONE
+    -make infographic pictures - DONE
+    -make infographic media queries: - DONE
+        .fix row so it stays in a line
+        .make sure text is still readable
+        .fix species header so it doesn't cover the whole image
+        .fix numbers on circles so they don't move left as the page shrinks
+        .make sure the text on the rows section doesn't shift under the 
+         triangles
+        .fix the arrow button top margin and button size
+        .make arrows closer together as slider shrinks without overlapping
+        .move vaquita picutre as slider shrinks
+    -validate newsletter form - DONE
+    -fix media queries on welcome banner - DONE
+    -site maps on modile is cut off -NOT FOUND
+    -finish styling the donate buttons
+
+
+
+
+
+
+
+
